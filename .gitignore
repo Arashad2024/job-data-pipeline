@@ -33,7 +33,6 @@ keys.json
 config.yaml
 
 # PostgreSQL
-*.sql
 *.dump
 pg_data/
 
