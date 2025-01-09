@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+env/
+venv/
+
+# Docker
+*.log
+*.pid
+*.swp
+.dockerignore
+docker-compose.override.yml
+
+# System
+.DS_Store
+*.swp
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+
+# Secrets and config
+adzuna-producer/.env
+.env
+secrets.json
+keys.json
+config.yaml
+
+# PostgreSQL
+*.sql
+*.dump
+pg_data/
+
+# IDE/Editor
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# NiFi
+nifi/logs/
+nifi/content_repository/
+nifi/flowfile_repository/
+nifi/database_repository/
